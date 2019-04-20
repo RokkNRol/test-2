@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css?family=Poller+One');
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 'Poller One', cursive;
+}
+body {
+	background-color: #fff;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1;
+	min-width: 960px;
+}
+.back-img {
+	background: url(images/computers.jpg) no-repeat 0 0;
+}
+p {
+	color: #252525;
+	line-height: 24px;
+}
+p a {
+	color: #252525;
+	text-decoration: underline;
+}
+p a:hover {
+	color: #898989;
+}
+header {
+	margin: 0 auto;
+	padding: 44px 0 50px;
+	text-align: center;
+	width: 960px;
+}
+header a.logo {
+	display: block;
+	margin: 0 auto;
+}
+header ul {
+	padding: 56px 0 0;
+}
+header ul li {
+	display: inline;
+	padding: 0 19px;
+}
+header ul li a {
+	color: #252525;
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 0 0 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+header ul li a:hover,
+header ul li.selected a {
+	color: #0ba39c;
+}
+#top {
+	padding: 0 0 30px;
+	text-align: center;
+}
+#top h1 {
+	color: #fff;
+	display: inline;
+	font-family: 'Poller One';
+	font-size: 35px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+#top h1 span {
+	background: #252525;
+	display: inline-block;
+	padding: 15px 28px 12px;
+}
+#top > div {
+	margin: 0 auto;
+	width: 960px;
+}
+#top > div img {
+	border:2px solid #292929;
+	margin: 24px 0 0;
+}
+#top > div .article {
+	margin: 0 auto;
+	padding: 30px 30px 0;
+	width: 560px;
+}
+#top > div .article h2 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	margin: 0 0 30px;
+}
+.description p {
+	text-align: left;
+}
+#top > div .article h3 {
+	color: #252525;
+	line-height: 24px;
+}
+#top > div .article h4 {
+	background: #252525;
+	color: #fff;
+	display: inline-block;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	margin: 0 0 30px;
+	padding: 8px 27px 10px;
+}
+#top > div .article p {
+	margin: 0 0 30px;
+}
+#top div ul {
+	padding: 24px 10px 0;
+	width: 940px;
+}
+#top div ul li {
+	border: 2px solid #1a1a1a;
+	display: block;
+	margin: 0 0 13px;
+	overflow: hidden;
+}
+#top div ul li .figure{
+	border-right: 2px solid #1a1a1a;
+	float: left;
+	width: 376px;
+}
+#top div ul li img {
+	border: 0;
+	display: block;
+	opacity: 0.8;
+	transition: 0.5s ease-in-out;
+}
+#top div ul li .figure:hover img {
+	opacity: 1;
+}
+#top div ul li div {
+	float: left;
+	padding: 63px 0 20px;
+	width: 558px;
+}
+#top div ul li div h3 {
+	color: #252525;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+#topdiv ul li div p {
+	padding: 30px 30px 18px;
+}
+#top .more {
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	padding: 8px 28px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#top .more:hover {
+	color: #252525;
+	background: #fff;
+	border: 2px solid #252525;
+}
+#top #featured {
+	margin: 0 0 10px;
+	position: relative;
+	width: 100%;
+}
+#top #featured img {
+	border: 0;
+	display: block;
+	width: 100%;
+	opacity: 0.7;
+}
+#top #featured div {
+	left: 50%;
+	margin-left: -420px;
+	margin-top: -171px;
+	padding: 0 0 0 470px;
+	position: absolute;
+	top:50%;
+	text-align: left;
+	width:490px;
+}
+#top #featured div h2 {
+	background: #abf;
+	color: #000;
+	display: inline-block;
+	font-family: 'Poller One';
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0 0 18px;
+	padding: 23px 27px 20px;
+	text-transform: uppercase;
+}
+#top #featured div span {
+	background: #252525;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	margin: 7px 0;
+	padding: 12px 27px;
+}
+#top #featured div a {
+	background: #0ba39c;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	margin: 15px 0 0;
+	padding: 26px 27px 22px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#top #featured div a:hover {
+	background: #1fc3bc;
+}
+#top > ul {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 24px 0 0 ;
+	width: 960px;
+}
+#top > ul li {
+	display: block;
+	float: left;
+	margin: 0 10px 20px;
+	padding: 0;
+	width: 300px;
+}
+#top > ul li a {
+	color: #000;
+	display: block;
+	font-family: 'Poller One';
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#top > ul li a img {
+	border: 2px solid #1a1a1a;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	opacity: 0.8;
+	transition: 0.5s ease-in-out;
+}
+#top > ul li a:hover img {
+	opacity: 1;
+	transform: scale(1.03)
+}
+#top > ul li a span {
+	display: block;
+	margin: 0;
+	padding: 33px 0 0;
+}
+#top form {
+	margin: 0 auto;
+	padding: 24px 0 0;
+	width: 620px;
+}
+#top form input,
+#top form textarea {
+	border:2px solid #252525;
+	color: #252525;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0 0 37px;
+	padding: 20px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 596px;
+}
+#top form textarea {
+	height: 175px;
+	overflow: auto;
+	resize: none;
+}
+#top form #send {
+	background: #252525;
+	color: #fff;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	display: inline-block;
+	padding: 20px 28px;
+	width: auto;
+}
+#top form #send:hover {
+	background: #fff;
+	color: #252525;
+	cursor: pointer;
+}
+#foot {
+	background: #252525;
+	margin: 0;
+	padding: 36px 0 42px;
+}
+#foot div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	width: 960px;
+}
+#foot div p {
+	color: #fff;
+	float: left;
+	line-height: 44px;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+#foot div ul {
+	display: block;
+	float: right;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 256px;
+}
+#foot div ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	width: 44px;
+}
+#foot div ul li a {
+	background: url(img_work/social_icons_sprite.png) no-repeat 0 0;
+	display: block;
+	height: 34px;
+	margin: 0;
+	padding: 0;
+	text-indent: -999999px;
+	width:34px;
+	border-radius: 7px
+}
+#foot div ul li #twitt {
+	background-position: -33px -282px;
+	opacity: 0.5;
+}
+#foot div ul li #twitt:hover {
+	opacity: 1;
+	transition: 0.5s;
+	transform: scale(1.05);
+}
+#foot div ul li #faceb {
+	background-position: -73px -282px;
+	opacity: 0.5;
+}
+#foot div ul li #faceb:hover {
+	opacity: 1;
+	transition: 0.5s;
+	transform: scale(1.05);
+}
+#foot div ul li #g-g {
+	background-position: -113px -282px;
+	opacity: 0.5;
+}
+#foot div ul li #g-g:hover {
+	opacity: 1;
+	transition: 0.5s;
+	transform: scale(1.05);
+}
+#foot div ul li #insta{
+	background-position: -153px -282px;
+	opacity: 0.5;
+}
+#foot div ul li #insta:hover {
+	opacity: 1;
+	transition: 0.5s;
+	transform: scale(1.05);
+}
